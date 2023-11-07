@@ -52,4 +52,32 @@ while(digitalRead(pulsador)==LOW);
 ```
 ![p3](https://github.com/Andrey-PL-2000/Introduccion-Electronica-Y-Arduino./assets/117885708/bc87b677-35cc-440d-9f8b-accce234203d)
 
-### 
+### P4 "Control de LED con Fotorresistencia"
+
+*[Practica 4] (https://www.tinkercad.com/things/j9FfVZSQBsC)*
+
+```
+int sensor_luz =0;  //Pin análogo en donde va conectada la fotocelda
+int led =4;
+int valor_luz = 0;  
+
+
+void setup() {  
+  pinMode(sensor_luz,INPUT); 
+  Serial.begin(9600);
+}
+
+void loop() {
+    
+  valor_luz =analogRead(sensor_luz); //Mapeo inverso de los valores que toma la fotocelda
+  Serial.println(valor_luz);
+  if(valor_luz < 300){
+    digitalWrite(led,HIGH);
+  }else{(led,LOW);
+       }
+}
+```
+
+![P4](https://github.com/Andrey-PL-2000/Introduccion-Electronica-Y-Arduino./assets/117885708/caf2b609-6267-40e8-936f-c9f7aabbb9f3)
+
+

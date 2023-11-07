@@ -10,7 +10,9 @@
 ### P2 "Introducción al Control de LEDs con Arduino"
 
 ###[Practica 2] (https://www.tinkercad.com/things/iXVpzXA2myD)
-`// C++
+
+
+``` // C++
 int led_rojo = 13;//Define el pin 13 (salida)
 void setup()
 {
@@ -23,7 +25,7 @@ void loop()
   delay(1000); // Espera 500 milisegundos (medio segundo)
   digitalWrite(led_rojo, LOW); // Apaga el LED
   delay(500); // Espera otros 500 milisegundos
-}`
+} ```
 
 ![p2](https://github.com/Andrey-PL-2000/Introduccion-Electronica-Y-Arduino./assets/117885708/395c3924-f9db-4407-b13c-d952b90c82ac)
 

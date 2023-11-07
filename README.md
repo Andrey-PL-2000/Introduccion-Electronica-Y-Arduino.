@@ -4,4 +4,4 @@
 
 ## P1 "Conexión de Múltiples LEDs en una Configuración Paralela"
 
-**[Practica 1] (https://www.tinkercad.com/things/0f3lZS00tbI)**
+### [Practica 1] (https://www.tinkercad.com/things/0f3lZS00tbI)

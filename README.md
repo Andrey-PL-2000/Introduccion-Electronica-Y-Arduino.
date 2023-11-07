@@ -52,4 +52,4 @@ while(digitalRead(pulsador)==LOW);
 ```
 ![p3](https://github.com/Andrey-PL-2000/Introduccion-Electronica-Y-Arduino./assets/117885708/bc87b677-35cc-440d-9f8b-accce234203d)
 
-
+### 
